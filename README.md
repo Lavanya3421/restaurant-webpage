@@ -3,7 +3,7 @@
 
 - **Order Page**: Allows customers to place orders from the menu.
 
-- **Your Orders Page**: Enables users to view their current and past orders.
+- **Your Orders Page**: Enables users to confirm and pay bill to their orders.
 
 - **Near Page**: Provides information about nearby restaurant locations.
 
