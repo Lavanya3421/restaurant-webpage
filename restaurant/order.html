@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Food</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="order.html">Order</a>
+            <a href="basket.html">Your Orders</a>
+            <a href="near.html">Near</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Menu Items Section -->
+        <section class="menu-items">
+            <div class="menu-item">
+                <img src="Images/pizza.jpg" alt="Pizza">
+                <button class="add-to-basket-btn" onclick="addToBasket('Pizza', 10, this)">Pizza - $10</button>
+            </div>
+            <div class="menu-item">
+                <img src="Images/pizza veg.jpg" alt="Veg Pizza">
+                <button class="add-to-basket-btn" onclick="addToBasket('Veg Pizza', 8, this)">Veg Pizza - $8</button>
+            </div>
+            <div class="menu-item">
+                <img src="Images/burger.jpg" alt="Burger">
+                <button class="add-to-basket-btn" onclick="addToBasket('Burger', 6, this)">Burger - $6</button>
+            </div>
+            <div class="menu-item">
+                <img src="Images/burger veg.jpg" alt="Veg Burger">
+                <button class="add-to-basket-btn" onclick="addToBasket('Veg Burger', 5, this)">Veg Burger - $5</button>
+            </div>
+            <div class="menu-item">
+                <img src="Images/pasta.jpg" alt="Pasta">
+                <button class="add-to-basket-btn" onclick="addToBasket('Pasta', 7, this)">Pasta - $7</button>
+            </div>
+            <div class="menu-item">
+                <img src="Images/pasta veg.jpeg" alt="Veg Pasta">
+                <button class="add-to-basket-btn" onclick="addToBasket('Veg Pasta', 6, this)">Veg Pasta - $6</button>
+            </div>
+            <div class="menu-item">
+                <img src="Images/coffee.jpeg" alt="Coffee">
+                <button class="add-to-basket-btn" onclick="addToBasket('Coffee', 3, this)">Coffee - $3</button>
+            </div>
+            <div class="menu-item">
+                <img src="Images/Juice.jpg" alt="Juices">
+                <button class="add-to-basket-btn" onclick="addToBasket('Juices', 4, this)">Juices - $4</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
